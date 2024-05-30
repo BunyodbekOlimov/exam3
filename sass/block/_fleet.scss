@@ -1,0 +1,66 @@
+.fleet{
+    width: 100%;
+}
+
+.fleet__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 136px;
+    gap: 32px;
+    
+    .fleet__title{
+        display: flex;
+        flex-direction: column;
+        .fleet__text{
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 12px;
+            color: rgba(119, 126, 144, 1);
+        }   
+        .fleet__head{
+            font-family: DM Sans;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: -0.02em;
+            margin-top: 16px;
+        }
+        .fleet__paragraph{
+            width: 350px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgba(119, 126, 144, 1);
+            margin-top: 32px;
+        }
+        .fleet__btns{
+            display: flex;
+            align-items: center;
+            padding: 14px 16px;
+            gap: 20px;
+            width: 250px;
+            border: 2px solid rgba(230, 232, 236, 1);
+            border-radius: 90px;
+            background: rgba(250, 252, 252, );
+            margin-top: 40px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgba(119, 126, 144, 1);
+            &:hover{
+                background: dodgerblue;
+                cursor: pointer;
+                color: #ddd;
+            }
+            .fleet__icon{
+                 background: rgba(59, 113, 254, 1);
+                 padding: 4px;
+                 border-radius: 100px;
+                 color: #ddd;
+                 
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.pickup{
+    width: 100%;
+    margin-top: 136px;
+    margin-bottom: 136px;
+}
+
+.pickup__body{
+    display: flex;
+    flex-direction: column;
+
+    .pickup__title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .pickup__heading{
+            font-family: DM Sans;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: -0.02em;
+            color: rgba(35, 38, 47, 1);
+
+        }
+        .pickup__text{
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: -0.01em;
+            color: rgba(119, 126, 144, 1);
+            margin-top: 12px;
+
+        }
+    }
+    .pickup__collection{
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+        .pickup__item{
+            display: flex;
+            flex-direction: column;
+            width: 256px;
+            height: 260px;
+            border: 2px solid rgba(13, 53, 94, 0.333);
+            border-radius: 24px;
+            padding: 32px;
+
+            .pickup__num{
+                width: 44px;
+                background: rgba(230, 232, 236, 1);
+                padding: 6px 10px;
+                border-radius: 24px;
+                margin-bottom: 70px;
+            }
+            .pickup__plice{
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: rgba(35, 38, 47, 1);
+            }
+        }
+    }
+}
